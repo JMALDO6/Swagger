@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Swagger</name>
+    </assembly>
+    <members>
+        <member name="M:Swagger.Controllers.DemoController.GetString">
+            <summary>
+            Get string.
+            </summary>
+            <response code="401">Unauthorized. No se encuentra autorizado</response>
+            <response code="200">Ok. Correcto</response>
+            <response code="404">NotFound. No se encuentra</response>
+            <response code="500">Error. Se produjo un error</response>
+        </member>
+    </members>
+</doc>
